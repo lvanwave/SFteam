@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="code/style.css">
+
+</head>
+	
+<body style="margin-left: 50px;">
+
+<span class="titleFirst">Learning and Development </span><span class="titleSecond">San Francisco Team</span>
+
+<input type="text" id="myInput" style="width:90%" onkeyup="myFunction()" placeholder="Search for media.." title="SF team">
+
+<div id="myBtnContainer">
+  <button class="btn active" style="margin-left: 12px;" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('CBTs')"> CBTs</button>
+  <button class="btn" onclick="filterSelection('PPMs')"> PPMs</button>
+  <!--  <button class="btn" onclick="filterSelection('Templates')"> Templates</button>
+  <button class="btn" onclick="filterSelection('Guides')"> Guides</button> -->
+</div>
+	
+	<br></br>
+	
+<table class="myHeading" >
+	
+  <tr>
+    <th class="tableHead" style="text-align: left; width:82%; padding-left:12px;border: 0px red solid;">Title</th>
+    <th class="tableHead" style="text-align: right; width:12%; text-align: center; border: 0px red solid;">Links</th>
+    <th class="tableHead" style="text-align: right; width:6%; text-align: center; border: 0px red solid;">Icons</th>
+  </tr>
+	
+</table>
+	
+<table id="myTable">
+
+
+<!-- DA CBT part 1 2 3 8-21-2024 -->
+
+  <tr class="column CBTs" onclick="window.open('https://learning.goodwillaz.org/course/SF/DApart1/story.html', '_blank')">  <!--    image size 600 x 400 -->
+            <td class="lefty">Donation Attendant CBT Part 1</td>  <!--desicription -->
+            <td class="viewLink">VIEW</td>  <!--click to view image -->
+            <td class="righty"><img src="images/SF_CBT2_08212024.gif" style="width="auto" height="36";"></td>  <!--thumbnail image style="width:25%; padding:4px;"-->
+  </tr>
+  
+  <tr class="column CBTs" onclick="window.open('https://learning.goodwillaz.org/course/SF/DApart1/story.html', '_blank')">  <!--   image size 600 x 400 -->
+            <td class="lefty">Donation Attendant CBT Part 2</td>  <!--desicription -->
+            <td class="viewLink">VIEW</td>  <!--click to view image -->
+            <td class="righty"><img src="images/SF_CBT2_08212024.gif" style="width="auto" height="36";"></td>  <!--thumbnail image style="width:25%; padding:4px;"-->
+  </tr>
+  
+  <tr class="column CBTs" onclick="window.open('https://learning.goodwillaz.org/course/SF/DApart1/story.html', '_blank')">   <!--   onclick="window.open('https://www.google.com/', '_blank')">image size 600 x 400 -->
+            <td class="lefty">Donation Attendant CBT Part 3</td>  <!--desicription -->
+            <td class="viewLink">VIEW</td>  <!--click to view image -->
+            <td class="righty"><img src="images/SF_CBT2_08212024.gif" style="width="auto" height="36";"></td>  <!--thumbnail image style="width:25%; padding:4px;"-->
+  </tr>
+  
+ <!-- ================================================ PPMs ================================================ -->
+ 
+  <tr class="column PPMs" onclick="window.open('https://drive.google.com/file/d/11B0IUFwPFuq36fPlGK5gvwIQdmbWxYjF/view?usp=drive_link', '_blank')">  <!--image size 600 x 400 -->
+            <td class="lefty">PPM and Guidelines Donation Attendant (English)</td>  <!--desicription -->
+            <td class="viewLink">VIEW</td>  <!--click to view image -->
+            <td class="righty"><img src="images/SF_PPM2_08212024.gif"  style="width="auto" height="36";"></td>  <!--thumbnail image style="width:25%; padding:4px;"-->
+  </tr> 
+  
+  <tr class="column PPMs" onclick="window.open('https://drive.google.com/file/d/1AygFc6VLuNxDNODmD2hWPO2K4B6gl1Rh/view?usp=sharing', '_blank')">  <!--image size 600 x 400 -->
+            <td class="lefty">PPM and Guidelines Cloth Non-Recycling (English)</td>  <!--desicription -->
+            <td class="viewLink">VIEW</td>  <!--click to view image -->
+  			<td class="righty"><img src="images/SF_PPM2_08212024.gif" style="width="auto" height="36";"></td>  <!--thumbnail image style="width:25%; padding:4px;"-->
+  </tr> 
+  
+  <tr class="column PPMs" onclick="window.open('https://drive.google.com/file/d/1kr9fcss46ZXRCCOsxMDsaOPjE-kQWEuX/view?usp=sharing', '_blank')">  <!--image size 600 x 400 -->
+            <td class="lefty">PPM and Guidelines Electrical Non-Recycling (English)</td>  <!--desicription -->
+            <td class="viewLink">VIEW</td>  <!--click to view image -->
+            <td class="righty"><img src="images/SF_PPM2_08212024.gif" style="width="auto" height="36";"></td>  <!--thumbnail image style="width:25%; padding:4px;"-->
+  </tr> 
+  
+    <tr class="column PPMs" onclick="window.open('https://drive.google.com/file/d/1ya-Z3iRmRjreScIxXtNt8PtOxl2LWNwv/view?usp=sharing', '_blank')">  <!--image size 600 x 400 -->
+            <td class="lefty">PPM and Guidelines Furniture Non-Recycling (English)</td>  <!--desicription -->
+            <td class="viewLink">VIEW</td>  <!--click to view image -->
+            <td class="righty"><img src="images/SF_PPM2_08212024.gif" style="width="auto" height="36";"></td>  <!--thumbnail image style="width:25%; padding:4px;"-->
+  </tr> 
+  
+  <tr class="column PPMs" onclick="window.open('https://drive.google.com/file/d/1HMfxcWpBiABnSdM3NyWCvBX-A8vwiILk/view?usp=sharing', '_blank')">  <!--image size 600 x 400 -->
+            <td class="lefty">PPM and Guidelines Linens Non-Recycling (English)</td>  <!--desicription -->
+            <td class="viewLink">VIEW</td>  <!--click to view image -->
+            <td class="righty"><img src="images/SF_PPM2_08212024.gif" style="width="auto" height="36";"></td>  <!--thumbnail image style="width:25%; padding:4px;"-->
+  </tr>
+  
+   <tr class="column PPMs" onclick="window.open('https://drive.google.com/file/d/1Kl5ANfJVo7QvyyTS0Qz-XWUfewYVJ8uu/view?usp=sharing', '_blank')">  <!--image size 600 x 400 -->
+            <td class="lefty">PPM and Guidelines Shoes Non-Recycling (English)</td>  <!--desicription -->
+            <td class="viewLink">VIEW</td>  <!--click to view image -->
+            <td class="righty"><img src="images/SF_PPM2_08212024.gif" style="width="auto" height="36";"></td>  <!--thumbnail image style="width:25%; padding:4px;"-->
+  </tr>
+
+
+</table>
+
+<script type="text/javascript" src="code/javaCode.js"></script>  
+
+</body>
+</html>

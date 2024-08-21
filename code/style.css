@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+  box-sizing: border-box;
+}
+
+tr
+{
+ padding: 1% 0 1% 0;
+}
+
+tr.CBTs {
+    cursor: pointer;
+}
+tr.CBTs:hover {
+   /*TR-HOVER-STYLES*/
+}
+
+tr.CBTs a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+tr.CBTs:hover a{
+   /*LINK-HOVER-STYLES*/
+}
+
+tr.CBTs:visited a{
+  color: yellow;
+}
+
+tr.PPMs {
+    cursor: pointer;
+}
+tr.PPMs:hover {
+   /*TR-HOVER-STYLES*/
+}
+
+tr.PPMs a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+tr.PPMs:hover a{
+   /*LINK-HOVER-STYLES*/
+}
+
+tr.a:visited {
+   background-color: red;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  display: none; /* Hide all elements by default */
+}
+
+.show {
+  display: block;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table {
+	/*border: 0px white solid;*/
+	margin-left: 12px;
+}
+	
+#myInput {
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: Arial, "sans-serif";
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #000;
+  margin-bottom: 12px;
+	margin-left: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  font-family: Arial, "sans-serif";
+  width: 90%;
+  border: 1px solid #B5ADA5;
+  font-size: 18px;
+}
+	
+#myHeading th {
+	border-collapse: collapse;
+	font-family: Arial, "sans-serif";
+	width: 100%;
+	line-height: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 10px solid #B5ADA5;
+	font-size: 18px;
+}
+
+.myHeading {
+	
+	border: 1px #B5ADA5 solid;
+	width: 90%;
+	height: 40px;
+	margin-left: 12px;
+	font-family: Arial, "sans-serif";
+	background-color: #B5ADA5;
+	
+}
+
+@media only screen and (max-width: 700px) {
+#myHeading th  {
+    visibility: hidden;
+  }
+}
+
+.tableHead
+{
+	background-color: #B5ADA5;
+	border: 0px #B5ADA5 solid;
+	margin: 0px;
+	color: #FFF;
+	width: 100%;
+}
+
+#myTable th, #myTable td {
+	/*border: 0px white solid;*/
+	padding-left: 12px; padding-right: 12px;
+	padding-top: 2px; padding-bottom: 0px;
+}
+
+#myTable tr {
+	border-bottom: 1px solid #B5ADA5;
+	width: 100%;
+	/*border: 2px solid red !important;*/
+}
+
+@media only screen and (max-width: 700px) {
+  #myTable tr  {
+    /*border: 1px solid green !important;
+	  background-color: yellow;*/
+  }
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #E5E2E0;
+}
+
+#myTable tr.header, #myTable tr:visited {
+  color: red;
+}
+
+#myBtnContainer
+{
+	padding-top: 10px;
+}
+
+.titleFirst {
+	font-size: 32px;
+	line-height: 100px; 
+	padding-top: 250px;
+	padding-left: 12px;
+	font-weight: 700;
+	font-family: Arial, "sans-serif";
+	color: #002D74;
+}
+
+.titleSecond {
+	font-family: Arial, "sans-serif";
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #00ADBB;
+	text-transform: uppercase; 
+	padding-left: 5px;
+}
+	
+td a
+{ 
+	display: block; 
+	color: red;
+	text-decoration: none;
+	border: 0px red solid;
+}
+
+/*this is for the td tags*/
+.lefty {
+	font-size: 1.2vw;
+	text-align: left;
+	line-height: 43px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	width: 82%;
+	border: 0px green solid;
+}
+
+@media only screen and (max-width: 1100px) {
+  .lefty   {
+    /*visibility: hidden;*/
+	  font-size: 2.4vw;
+	  line-height: 1px;
+	  width: 82%;
+	  height: 30px;
+  }
+}
+
+
+/*this is for the td tags*/
+.righty {
+	text-align: center;
+	width:6%;
+	border: 0px red solid;
+}
+
+@media only screen and (max-width: 1100px) {
+  .righty   {
+  margin: 30% 30% 30% 30%;
+    width:6%;
+  }
+}
+
+.viewLink 
+{
+	text-align: center;
+	font-size: 1.2vw;
+	color: #002D74;
+	text-decoration-line: underline;
+	line-height: 33px;
+	font-weight: 200;
+	padding-left: 10px;
+	padding-right: 30px;
+	/*background-color: white;*/
+	width:12%;
+	color: #00ADBB;
+	border: 0px #B5ADA5 solid;/**/
+	border-right: 0px #B5ADA5 solid;
+}
+
+@media only screen and (max-width: 1100px) {
+  .viewLink   {
+  font-size: 2.4vw;
+  /* background-color: royalblue;*/
+  }
+}
+
+
+.viewLink:hover
+{
+	/*background-color: #00ADBB;*/
+	color: #2b3a6a;
+	text-decoration-line: underline;
+	/*border: 1px #00ADBB solid;*/
+}
+
+
+.viewDwn a
+{
+	text-align: center;
+	font-size: 12px;
+	line-height: 33px;
+	font-weight: 600;
+	padding-left: 0px;
+	padding-right: 10px;
+	/*background-color: white;*/
+	width:100%;
+	color: #00ADBB;
+	/*border: 1px #B5ADA5 solid;*/
+}
+
+@media only screen and (max-width: 700px) {
+  .viewDwn a   {
+	/*background-color: red;*/
+  }
+}
+
+.viewDwn a:hover
+{
+	/*background-color: #00ADBB;*/
+	color: #002D74;
+	text-decoration-line: underline;
+	/*border: 1px #00ADBB solid;*/
+}
+
+
+	
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: 1px #B5ADA5 solid;
+  padding: 12px 16px;
+  margin-left: 8px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #B5ADA5;
+	color: #fff;
+}
+
+.btn.active {
+  background-color: #00ADBB;
+  outline: 1px #00ADBB solid;
+  color: white;
+}
+
+* {
+	  box-sizing: border-box;
+}
+
+
